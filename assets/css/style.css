@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav h1{
+    color: rgb(28, 210, 210);
+    font-weight: bolder;
+    
+}
+.navlinks{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    margin-right: 20px;
+}
+.navlinks:hover{
+    text-decoration: none;
+    
+}
+
+.banner{
+    background-image: url('../images/banner-bg.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;text-align: center;
+    align-items: center;
+    }
+.banner h1{
+    color: white;
+    text-align: center;
+    font-size:60px;
+    padding-top: 80px;
+}  
+.searchbar {
+    margin: 20px 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar input {
+    width: 25%;
+    padding: 1%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 0;
+    border: none;
+}
+
+.searchbar button {
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 0;
+    border: none;
+}
+
+.banner p{
+    color: white;
+    margin-top: 2%;
+}
+.dbtn{
+    background-color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: none;
+    margin-top: 2%;
+    color: rgb(255, 255, 255);
+}
+  .div1{
+    display: flex;
+    text-align: right;
+    
+
+  } 
+  .div2{
+    display: flex;
+    text-align: left;
+    
+
+  } 
+  .texts{
+    width: 50%;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 14%;
+    padding-right: 2%;
+  }
+  .texts2{
+    width: 50%;
+    text-align: left;
+    padding-top: 5%;
+    padding-right: 14%;
+    padding-left: 2%;
+  }
+  .contentimg{
+   width: 50%;
+   padding-top: 5%;
+   padding-right: 1%;
+  }
+  .img1{
+    width: 100%;
+  }
+  .contentimg1{
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 1%;
+   }
+   .img2{
+     width: 100%;
+   }
+  .texts p , .texts2 p{
+    font-size: 15px;
+    text-align: justify;
+    width: 90%;
+    
+  }
+  .subscribe{
+    background-color:rgb(28, 189, 210) ;
+    width: 100%;
+    height: 350px;
+    text-align: left;
+    margin-top: 4%;
+    
+    }
+    .subscribe p{
+        color: white;
+        margin-top: 3%;
+        font-size: 20px;
+    }
+    .subscribe h1{
+        padding-top: 3%;
+    }
+
+    .emaildiv{
+        width:100%;
+        height: 50px;
+        margin-top: 3%;
+        background-color: white;
+        border-radius: 18px;
+        display: flex;
+        
+    }
+    .emaildiv input{
+        border: none;
+        height: 94%;
+        width: 80%;
+        margin-left: 3%;
+        outline: none;
+    }
+    .emaildiv button{
+        background-color: black;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 12px;
+       border-radius: 13px;
+        border: none;
+        width: 16%;
+        height: 80%;
+        margin-top: 5px;
+        color: rgb(255, 255, 255);
+
+    }
+    .copyright{
+        display: flex;
+        margin-top: 2%;
+       
+    }
